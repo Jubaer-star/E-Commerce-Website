@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Product Details</h1>
+        <a href="cart.html" class="cart-link">Cart (0)</a>
+    </header>
+
+    <main>
+        <div class="product-details">
+            <img src="https://via.placeholder.com/200" alt="Product">
+            <h2>Product Name</h2>
+            <p>$49.99</p>
+            <p>This is a description of the product. It can include details, size, material, etc.</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
